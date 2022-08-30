@@ -1,0 +1,4466 @@
+{
+  "meta": {
+    "build_url": "https://github.com/Simon-LoriereLab/TOSV",
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "France",
+            "#5481c1"
+          ],
+          [
+            "Italy",
+            "#c57429"
+          ],
+          [
+            "Spain",
+            "#665aa7"
+          ],
+          [
+            "Switzerland",
+            "#2a7b40"
+          ],
+          [
+            "Tunisia",
+            "#ca559a"
+          ]
+        ],
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "region",
+        "scale": [
+          [
+            "Africa",
+            "#CEB541"
+          ],
+          [
+            "Europe",
+            "#E39B39"
+          ]
+        ],
+        "title": "Region",
+        "type": "categorical"
+      },
+      {
+        "key": "location",
+        "title": "Location",
+        "type": "categorical"
+      },
+      {
+        "key": "division",
+        "title": "Division",
+        "type": "categorical"
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "filters": [
+      "region",
+      "country",
+      "authors"
+    ],
+    "genome_annotations": {
+      "SFNVsLgp1": {
+        "end": 6306,
+        "seqid": "config/reference_seq_L.gb",
+        "start": 19,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 6404,
+        "seqid": "config/reference_seq_L.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Algeria": {
+            "latitude": 28.0000272,
+            "longitude": 2.9999825
+          },
+          "France": {
+            "latitude": 46.2276,
+            "longitude": 2.2137
+          },
+          "Italy": {
+            "latitude": 43.382775,
+            "longitude": 12.183629
+          },
+          "Spain": {
+            "latitude": 40.4637,
+            "longitude": -3.7492
+          },
+          "Switzerland": {
+            "latitude": 46.8182,
+            "longitude": 8.2275
+          },
+          "Tunisia": {
+            "latitude": 33.654143,
+            "longitude": 9.065134
+          }
+        },
+        "key": "country"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Fabiana Gambaro, Maria Dolores Fernandez-Garcia and Etienne Simon-Loriere"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ],
+    "title": "Genomic epidemiology of Toscana virus in Spain 2015 - 2019",
+    "updated": "2022-07-22"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "SFNVsLgp1: G133V, R335K, V349I, I514L, P790L, Y1032H, I1043L, K1047R, Q1050H, I1051V, S1057Q, K1058T, K1061E, E1066N, S1067Q, E1069V, I1072L, S1073L, Q1074P, Y1078F, L1230M, I1233V, T1234S, M1245C, I1246V, H1248Q, C1249S, S1252T, I1253L, L1260M, V1262T, A1264M, F1269Y, S1270K, G1801S, S1905G, L1988F"
+              },
+              "mutations": {
+                "SFNVsLgp1": [
+                  "G133V",
+                  "R335K",
+                  "V349I",
+                  "I514L",
+                  "P790L",
+                  "Y1032H",
+                  "I1043L",
+                  "K1047R",
+                  "Q1050H",
+                  "I1051V",
+                  "S1057Q",
+                  "K1058T",
+                  "K1061E",
+                  "E1066N",
+                  "S1067Q",
+                  "E1069V",
+                  "I1072L",
+                  "S1073L",
+                  "Q1074P",
+                  "Y1078F",
+                  "L1230M",
+                  "I1233V",
+                  "T1234S",
+                  "M1245C",
+                  "I1246V",
+                  "H1248Q",
+                  "C1249S",
+                  "S1252T",
+                  "I1253L",
+                  "L1260M",
+                  "V1262T",
+                  "A1264M",
+                  "F1269Y",
+                  "S1270K",
+                  "G1801S",
+                  "S1905G",
+                  "L1988F"
+                ],
+                "nuc": [
+                  "G78A",
+                  "T198C",
+                  "T240A",
+                  "T315C",
+                  "G327A",
+                  "G416T",
+                  "A417G",
+                  "C444T",
+                  "G459A",
+                  "C726T",
+                  "C750T",
+                  "T924A",
+                  "G1022A",
+                  "C1045T",
+                  "G1063A",
+                  "T1077G",
+                  "T1155C",
+                  "C1245T",
+                  "A1275G",
+                  "G1287A",
+                  "A1308G",
+                  "G1374A",
+                  "A1401G",
+                  "C1434T",
+                  "C1440T",
+                  "C1449T",
+                  "T1482C",
+                  "C1525T",
+                  "A1539G",
+                  "A1558C",
+                  "A1614G",
+                  "T1632C",
+                  "A1761G",
+                  "T1797C",
+                  "T1818C",
+                  "A1821G",
+                  "G1827A",
+                  "T1845C",
+                  "A1860G",
+                  "A1866G",
+                  "C1884T",
+                  "A1953T",
+                  "C2085A",
+                  "C2106A",
+                  "T2361C",
+                  "C2379T",
+                  "C2387T",
+                  "C2400T",
+                  "G2463A",
+                  "A2466G",
+                  "G2481A",
+                  "A2559C",
+                  "C2577A",
+                  "T2655C",
+                  "A2691G",
+                  "A2709C",
+                  "A2838G",
+                  "A2847C",
+                  "A2874G",
+                  "T2877C",
+                  "A2949G",
+                  "T3112C",
+                  "T3114C",
+                  "C3135T",
+                  "T3136C",
+                  "G3141A",
+                  "A3144C",
+                  "A3145C",
+                  "T3147C",
+                  "A3151T",
+                  "G3152C",
+                  "T3153A",
+                  "C3156T",
+                  "A3158G",
+                  "G3168C",
+                  "A3169G",
+                  "A3171G",
+                  "G3174A",
+                  "G3186C",
+                  "A3187C",
+                  "G3188A",
+                  "T3189A",
+                  "A3191C",
+                  "G3192T",
+                  "C3193T",
+                  "G3195A",
+                  "A3199G",
+                  "A3213G",
+                  "G3214A",
+                  "G3216C",
+                  "A3217C",
+                  "G3218A",
+                  "T3219A",
+                  "A3224T",
+                  "G3225C",
+                  "A3228G",
+                  "A3232C",
+                  "A3234T",
+                  "T3235C",
+                  "C3236T",
+                  "T3237A",
+                  "A3239C",
+                  "G3243C",
+                  "A3249T",
+                  "A3251T",
+                  "C3253T",
+                  "C3255G",
+                  "T3267A",
+                  "T3285C",
+                  "C3286T",
+                  "T3309C",
+                  "G3327A",
+                  "T3345C",
+                  "T3402C",
+                  "C3414T",
+                  "A3417G",
+                  "T3438C",
+                  "G3480A",
+                  "C3570T",
+                  "G3582A",
+                  "C3627A",
+                  "A3631C",
+                  "T3642C",
+                  "T3645G",
+                  "T3648A",
+                  "T3652A",
+                  "C3653G",
+                  "T3660A",
+                  "G3663A",
+                  "T3673C",
+                  "G3675T",
+                  "A3681T",
+                  "A3682C",
+                  "A3684C",
+                  "G3693A",
+                  "C3703T",
+                  "C3706A",
+                  "C3708G",
+                  "T3711A",
+                  "T3714A",
+                  "A3715G",
+                  "A3717C",
+                  "A3718T",
+                  "A3726G",
+                  "A3729T",
+                  "A3732G",
+                  "A3735G",
+                  "C3742T",
+                  "C3750T",
+                  "A3751T",
+                  "T3752G",
+                  "G3753T",
+                  "A3754G",
+                  "A3756G",
+                  "C3762A",
+                  "T3763A",
+                  "G3768A",
+                  "T3772A",
+                  "A3774T",
+                  "A3775T",
+                  "T3780C",
+                  "C3789A",
+                  "A3795C",
+                  "T3796A",
+                  "A3801G",
+                  "G3802A",
+                  "T3803C",
+                  "A3805T",
+                  "G3806C",
+                  "T3807A",
+                  "G3808A",
+                  "C3809T",
+                  "T3810G",
+                  "G3813A",
+                  "C3816T",
+                  "T3824A",
+                  "T3826A",
+                  "C3827A",
+                  "T3879C",
+                  "C3909T",
+                  "A3984G",
+                  "A4002G",
+                  "C4053A",
+                  "A4119T",
+                  "C4128T",
+                  "A4242T",
+                  "A4254G",
+                  "A4284C",
+                  "A4452G",
+                  "G4494A",
+                  "T4638C",
+                  "C4680T",
+                  "T4716C",
+                  "C4749T",
+                  "A4779G",
+                  "C4839A",
+                  "C4863T",
+                  "A4872G",
+                  "C4893T",
+                  "T4914C",
+                  "G4935A",
+                  "A4953G",
+                  "C4968T",
+                  "A4977G",
+                  "G5010A",
+                  "T5088C",
+                  "A5106T",
+                  "C5145T",
+                  "C5232A",
+                  "G5259A",
+                  "C5298A",
+                  "A5313G",
+                  "G5352A",
+                  "G5419A",
+                  "T5451C",
+                  "T5478C",
+                  "G5499A",
+                  "C5544T",
+                  "T5607C",
+                  "G5640A",
+                  "C5679A",
+                  "A5688G",
+                  "G5727A",
+                  "A5731G",
+                  "A5814T",
+                  "C5817T",
+                  "T5823C",
+                  "T5853C",
+                  "G5856A",
+                  "G5871A",
+                  "C5928T",
+                  "A5982T",
+                  "T6012C",
+                  "A6054T",
+                  "A6093G",
+                  "G6123A",
+                  "G6156A",
+                  "C6189T",
+                  "G6316A",
+                  "A6342T"
+                ]
+              }
+            },
+            "name": "TOSV/Algeria/A189/2013-08",
+            "node_attrs": {
+              "author": {
+                "author": "Alkan,C., Allal,A., Baklouti,A., Izri,A., De Lamballerie,X. and Charrel,R.N",
+                "title": "Virus isolation, genetic characterization and seroprevalence of Toscana virus in Algeria",
+                "value": "Alkan,C., Allal,A., Baklouti,A., Izri,A., De Lamballerie,X. and Charrel,R.N"
+              },
+              "country": {
+                "confidence": {
+                  "Algeria": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "Algeria"
+              },
+              "div": 564,
+              "host": {
+                "value": "Sandfly"
+              },
+              "num_date": {
+                "confidence": [
+                  2013.5904109589042,
+                  2013.664383561644
+                ],
+                "value": 2013.664383561644
+              },
+              "region": {
+                "value": "Africa"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "SFNVsLgp1: V175I, V216I, E235D, K246R, Y1032F, K1061R"
+              },
+              "mutations": {
+                "SFNVsLgp1": [
+                  "V175I",
+                  "V216I",
+                  "E235D",
+                  "K246R",
+                  "Y1032F",
+                  "K1061R"
+                ],
+                "nuc": [
+                  "A6G",
+                  "T171C",
+                  "C204T",
+                  "G216A",
+                  "G237A",
+                  "A303G",
+                  "C387T",
+                  "C402T",
+                  "C492T",
+                  "G541A",
+                  "T555C",
+                  "G570A",
+                  "T576C",
+                  "T582A",
+                  "T588C",
+                  "C622T",
+                  "G664A",
+                  "C669T",
+                  "A723C",
+                  "A755G",
+                  "G915A",
+                  "A918T",
+                  "T987C",
+                  "A1074G",
+                  "A1122T",
+                  "G1134A",
+                  "A1167G",
+                  "T1215C",
+                  "C1302T",
+                  "T1350C",
+                  "A1380G",
+                  "C1392T",
+                  "T1419A",
+                  "C1425T",
+                  "T1477C",
+                  "A1527G",
+                  "C1537T",
+                  "A1557G",
+                  "G1677A",
+                  "G1755A",
+                  "T1785A",
+                  "T1833C",
+                  "C1867T",
+                  "C1965T",
+                  "G1974A",
+                  "A2052G",
+                  "C2076T",
+                  "G2130A",
+                  "T2142A",
+                  "T2199C",
+                  "A2331T",
+                  "T2382A",
+                  "G2406A",
+                  "A2457G",
+                  "G2493A",
+                  "G2568A",
+                  "C2589T",
+                  "T2601C",
+                  "A2649T",
+                  "C2700T",
+                  "G2781A",
+                  "G2826A",
+                  "T2880C",
+                  "C2901T",
+                  "T2904C",
+                  "A3113T",
+                  "C3150T",
+                  "A3162G",
+                  "A3171T",
+                  "A3180G",
+                  "A3200G",
+                  "A3201G",
+                  "A3213T",
+                  "T3222G",
+                  "A3240G",
+                  "A3279G",
+                  "T3315C",
+                  "G3363A",
+                  "C3426T",
+                  "G3687A",
+                  "G3690A",
+                  "A3699T",
+                  "T3720A",
+                  "A3759G",
+                  "T3765C",
+                  "A3777T",
+                  "A3801T",
+                  "A3885G",
+                  "A3948G",
+                  "A3954C",
+                  "T3957C",
+                  "A3990G",
+                  "C4035T",
+                  "A4041T",
+                  "G4104A",
+                  "G4191A",
+                  "G4287A",
+                  "C4302T",
+                  "C4308T",
+                  "G4356A",
+                  "A4365G",
+                  "G4410A",
+                  "C4429T",
+                  "C4602T",
+                  "A4911G",
+                  "T4941C",
+                  "G4989A",
+                  "C5124T",
+                  "T5181A",
+                  "C5196T",
+                  "A5550G",
+                  "G5559A",
+                  "C5598G",
+                  "C5661T",
+                  "A5667G",
+                  "A5790G",
+                  "G5820A",
+                  "A5841T",
+                  "A6087G",
+                  "T6270C",
+                  "A6330G",
+                  "G6368A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G3063A",
+                      "A3318G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "SFNVsLgp1: R1061K"
+                      },
+                      "mutations": {
+                        "SFNVsLgp1": [
+                          "R1061K"
+                        ],
+                        "nuc": [
+                          "G2664A",
+                          "T2676C",
+                          "C2701T",
+                          "C2751T",
+                          "C2767T",
+                          "G2802A",
+                          "T2820A",
+                          "A2874G",
+                          "C2898T",
+                          "C2904A",
+                          "G3024C",
+                          "G3200A",
+                          "T3210C",
+                          "C3297T",
+                          "C3312T",
+                          "T3345C",
+                          "G3393A",
+                          "G3474A",
+                          "C3501T",
+                          "C3507T"
+                        ]
+                      }
+                    },
+                    "name": "TOSV/Italy/CC_INMI1/2019",
+                    "node_attrs": {
+                      "author": {
+                        "author": "Gori Savellini,G., Cusi,M.G., Castilletti,C. and Matusali,G",
+                        "title": "Long term persistence of Toscana Virus in blood and semen",
+                        "value": "Gori Savellini,G., Cusi,M.G., Castilletti,C. and Matusali,G"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Italy": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Italy"
+                      },
+                      "div": 453,
+                      "host": {
+                        "value": "Human"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2019.1029570497922,
+                          2019.9986301369863
+                        ],
+                        "value": 2019.9986301369863
+                      },
+                      "region": {
+                        "value": "Europe"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "SFNVsLgp1: K6R, D233N, R255K, S479P, S640G, T709A, D870E, R978K, T1617A, M1780I"
+                      },
+                      "mutations": {
+                        "SFNVsLgp1": [
+                          "K6R",
+                          "D233N",
+                          "R255K",
+                          "S479P",
+                          "S640G",
+                          "T709A",
+                          "D870E",
+                          "R978K",
+                          "T1617A",
+                          "M1780I"
+                        ],
+                        "nuc": [
+                          "A35G",
+                          "T162A",
+                          "T235C",
+                          "T309C",
+                          "T316C",
+                          "A318G",
+                          "G393A",
+                          "A462G",
+                          "A579G",
+                          "T609C",
+                          "G678A",
+                          "T687C",
+                          "G715A",
+                          "G782A",
+                          "C807T",
+                          "A993G",
+                          "A1065G",
+                          "A1185T",
+                          "C1335T",
+                          "T1453C",
+                          "C1456T",
+                          "T1581A",
+                          "T1590C",
+                          "T1600C",
+                          "G1638A",
+                          "A1695G",
+                          "A1779G",
+                          "T1791A",
+                          "A1936G",
+                          "T2022C",
+                          "C2028T",
+                          "G2082A",
+                          "C2085T",
+                          "A2143G",
+                          "C2145T",
+                          "A2154G",
+                          "C2220T",
+                          "T2295C",
+                          "A2313G",
+                          "C2418T",
+                          "A2478T",
+                          "A2508G",
+                          "C2572T",
+                          "T2583C",
+                          "C2628A",
+                          "C2667T",
+                          "A2865T",
+                          "A2895G",
+                          "A2928G",
+                          "G2951A",
+                          "A3015G",
+                          "T3057C",
+                          "T3075C",
+                          "C3084T",
+                          "T3136C",
+                          "G3138A",
+                          "C3193T",
+                          "G3510A",
+                          "T3531A",
+                          "A3552G",
+                          "T3573C",
+                          "A3591G",
+                          "T3630C",
+                          "T3651C",
+                          "G3723A",
+                          "A3804G",
+                          "C3825T",
+                          "C3834T",
+                          "T3864C",
+                          "G3921A",
+                          "A3963G",
+                          "G4137A",
+                          "T4236A",
+                          "G4239A",
+                          "C4311T",
+                          "A4314G",
+                          "T4435C",
+                          "T4551C",
+                          "G4587A",
+                          "T4662C",
+                          "C4689T",
+                          "C4695T",
+                          "A4867G",
+                          "A4881G",
+                          "A4926G",
+                          "T4971A",
+                          "A5148T",
+                          "T5208C",
+                          "C5286T",
+                          "G5358A",
+                          "G5454A",
+                          "G5529A",
+                          "T5547C",
+                          "T5634C",
+                          "C5685T",
+                          "C5697T",
+                          "A5712G",
+                          "C5739A",
+                          "A5748G",
+                          "A5754G",
+                          "A5760G",
+                          "C5769T",
+                          "G5811A",
+                          "A5814C",
+                          "G5883A",
+                          "A6015G",
+                          "G6090A",
+                          "T6100C",
+                          "G6117A",
+                          "T6153C",
+                          "A6201T",
+                          "T6285A",
+                          "A6315G",
+                          "G6322A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "TOSV/Tunisia/T152/2010-09-21",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Bichaud,L., Dachraoui,K., Piorkowski,G., Moureau,G., De Lamballerie,X., Charrel,R.N. and Zhioua,E.",
+                            "title": "Toscana virus isolated from sandflies, Tunisia",
+                            "value": "Bichaud,L., Dachraoui,K., Piorkowski,G., Moureau,G., De Lamballerie,X., Charrel,R.N. and Zhioua,E. A"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Tunisia": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Tunisia"
+                          },
+                          "div": 556,
+                          "host": {
+                            "value": "Sandfly"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2010.7219178082191,
+                              2010.7219178082191
+                            ],
+                            "value": 2010.7219178082191
+                          },
+                          "region": {
+                            "value": "Africa"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "TOSV/Tunisia/T166/2010-09-27",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Bichaud,L., Dachraoui,K., Piorkowski,G., Moureau,G., De Lamballerie,X., Charrel,R.N. and Zhioua,E.",
+                            "title": "Isolation of Toscana virus from sand flies, Tunisia 2010",
+                            "value": "Bichaud,L., Dachraoui,K., Piorkowski,G., Moureau,G., De Lamballerie,X., Charrel,R.N. and Zhioua,E. B"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Tunisia": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Tunisia"
+                          },
+                          "div": 556,
+                          "host": {
+                            "value": "Sandfly"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2010.7383561643835,
+                              2010.7383561643835
+                            ],
+                            "value": 2010.7383561643835
+                          },
+                          "region": {
+                            "value": "Africa"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000001",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "Tunisia": 0.9990206405190624
+                        },
+                        "entropy": 0.009174970302081777,
+                        "value": "Tunisia"
+                      },
+                      "div": 556,
+                      "num_date": {
+                        "confidence": [
+                          2010.0588268984975,
+                          2010.7219178082191
+                        ],
+                        "value": 2010.695738497069
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000000",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "France": 0.08881978502403656,
+                      "Italy": 0.4080462558742798,
+                      "Spain": 0.09271725495728482,
+                      "Tunisia": 0.2680772194597228
+                    },
+                    "entropy": 1.5283340041858313,
+                    "value": "Italy"
+                  },
+                  "div": 433,
+                  "num_date": {
+                    "confidence": [
+                      1944.7021038741166,
+                      1954.9761936215696
+                    ],
+                    "value": 1949.7094882288166
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "SFNVsLgp1: R245K, K478R, A641T, K643R, I747V"
+                  },
+                  "mutations": {
+                    "SFNVsLgp1": [
+                      "R245K",
+                      "K478R",
+                      "A641T",
+                      "K643R",
+                      "I747V"
+                    ],
+                    "nuc": [
+                      "C129T",
+                      "C150T",
+                      "T201C",
+                      "T240C",
+                      "A249G",
+                      "T261C",
+                      "C342T",
+                      "A510G",
+                      "G681A",
+                      "G752A",
+                      "T765C",
+                      "C774T",
+                      "G783A",
+                      "C816T",
+                      "C825T",
+                      "A873G",
+                      "C879T",
+                      "G933A",
+                      "A1110G",
+                      "G1200A",
+                      "C1230T",
+                      "G1260A",
+                      "C1323A",
+                      "T1384C",
+                      "G1422A",
+                      "A1451G",
+                      "A1458G",
+                      "T1581C",
+                      "C1626T",
+                      "C1728T",
+                      "C1806T",
+                      "A1809T",
+                      "G1872A",
+                      "T1893C",
+                      "A1896G",
+                      "C1923T",
+                      "G1939A",
+                      "A1946G",
+                      "G1986T",
+                      "A1995G",
+                      "G2097A",
+                      "A2100C",
+                      "T2187C",
+                      "C2214T",
+                      "G2226A",
+                      "A2257G",
+                      "T2259C",
+                      "A2271G",
+                      "T2304C",
+                      "C2368T",
+                      "G2370A",
+                      "T2385C",
+                      "G2448A",
+                      "T2451C",
+                      "G2571A",
+                      "T2676A",
+                      "A2742G",
+                      "T2991C",
+                      "G3111A",
+                      "T3114C",
+                      "G3288T",
+                      "T3321C",
+                      "C3399T",
+                      "T3486C",
+                      "T3678C",
+                      "A3795G",
+                      "C4053T",
+                      "G4173T",
+                      "A4299C",
+                      "C4413T",
+                      "T4426C",
+                      "G4449A",
+                      "G4656A",
+                      "A4692G",
+                      "T4698C",
+                      "T4938C",
+                      "A5019G",
+                      "C5064T",
+                      "C5067T",
+                      "G5154A",
+                      "T5190C",
+                      "A5202G",
+                      "G5223A",
+                      "T5277C",
+                      "T5295C",
+                      "C5310T",
+                      "G5325A",
+                      "T5328C",
+                      "G5340A",
+                      "A5364G",
+                      "T5439C",
+                      "T5511C",
+                      "C5631T",
+                      "T5722C",
+                      "T5757A",
+                      "A5787G",
+                      "T5868C",
+                      "A5877G",
+                      "C5979T",
+                      "G6069A",
+                      "T6124C",
+                      "A6126G",
+                      "G6144A",
+                      "A6165G",
+                      "A6204G",
+                      "A6314G",
+                      "G6325T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "SFNVsLgp1: V349I, L483Q, S511G, K884R, E1268K, S1651T"
+                      },
+                      "mutations": {
+                        "SFNVsLgp1": [
+                          "V349I",
+                          "L483Q",
+                          "S511G",
+                          "K884R",
+                          "E1268K",
+                          "S1651T"
+                        ],
+                        "nuc": [
+                          "C876T",
+                          "G1063A",
+                          "T1466A",
+                          "G1527T",
+                          "A1549G",
+                          "T1600C",
+                          "A1977G",
+                          "A2136G",
+                          "T2280C",
+                          "C2436T",
+                          "A2669G",
+                          "C2970T",
+                          "G3723A",
+                          "G3820A",
+                          "T3966C",
+                          "G4068A",
+                          "T4173C",
+                          "A4320T",
+                          "T4470C",
+                          "C4497T",
+                          "C4506T",
+                          "T4821C",
+                          "T4969A",
+                          "A5097G",
+                          "T5281C",
+                          "A5946G"
+                        ]
+                      }
+                    },
+                    "name": "TOSV/Italy/BB8/2014/human/2014-07",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "Italy": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Italy"
+                      },
+                      "div": 555,
+                      "host": {
+                        "value": "Human"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2014.4972602739726,
+                          2014.5712328767122
+                        ],
+                        "value": 2014.4972602739726
+                      },
+                      "region": {
+                        "value": "Europe"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A645G",
+                          "T828C",
+                          "C1641T",
+                          "C2853T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "SFNVsLgp1: L546S, S640G, R643E, R788A, P789T, P790S, S1045N"
+                          },
+                          "mutations": {
+                            "SFNVsLgp1": [
+                              "L546S",
+                              "S640G",
+                              "R643E",
+                              "R788A",
+                              "P789T",
+                              "P790S",
+                              "S1045N"
+                            ],
+                            "nuc": [
+                              "A45T",
+                              "G207A",
+                              "A405T",
+                              "T474C",
+                              "A624G",
+                              "C813T",
+                              "A972G",
+                              "G1218A",
+                              "T1655C",
+                              "G1659A",
+                              "C1773T",
+                              "A1936G",
+                              "A1945G",
+                              "G1946A",
+                              "G2055T",
+                              "C2322T",
+                              "C2379A",
+                              "C2380G",
+                              "G2381C",
+                              "A2382G",
+                              "C2383A",
+                              "C2386T",
+                              "G2388C",
+                              "T2421C",
+                              "C2637T",
+                              "C2667T",
+                              "G3152A",
+                              "A3468G",
+                              "C3516T",
+                              "C4299T",
+                              "C4404T",
+                              "G4422A",
+                              "T4731C",
+                              "G4995A",
+                              "T5892A",
+                              "T5980C",
+                              "A6201G",
+                              "A6225G"
+                            ]
+                          }
+                        },
+                        "name": "TOSV/France/5904242804/2014",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N",
+                            "title": "Complete Coding Sequences of Six Toscana Virus Strains Isolated from Human Patients in France",
+                            "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N"
+                          },
+                          "country": {
+                            "confidence": {
+                              "France": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "France"
+                          },
+                          "div": 571,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2014.1165400104526,
+                              2014.9986301369863
+                            ],
+                            "value": 2014.9986301369863
+                          },
+                          "region": {
+                            "value": "Europe"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "SFNVsLgp1: R275K, T1370S"
+                          },
+                          "mutations": {
+                            "SFNVsLgp1": [
+                              "R275K",
+                              "T1370S"
+                            ],
+                            "nuc": [
+                              "G842A",
+                              "G2121A",
+                              "G2316A",
+                              "A2838G",
+                              "C2934T",
+                              "C3507A",
+                              "A3732G",
+                              "A3996G",
+                              "A4044G",
+                              "A4083G",
+                              "A4126T",
+                              "C4344T",
+                              "C4683T",
+                              "A4881G",
+                              "A4923G",
+                              "G5019A",
+                              "A5091G",
+                              "T5661C",
+                              "A5760G",
+                              "G5787A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SFNVsLgp1: E2017D, L2018S, V2089I"
+                              },
+                              "mutations": {
+                                "SFNVsLgp1": [
+                                  "E2017D",
+                                  "L2018S",
+                                  "V2089I"
+                                ],
+                                "nuc": [
+                                  "G6A",
+                                  "C105T",
+                                  "A186G",
+                                  "A6069T",
+                                  "T6071C",
+                                  "G6258A",
+                                  "G6283A",
+                                  "G6348A"
+                                ]
+                              }
+                            },
+                            "name": "TOSV/Italy/181135-14/2013",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Chiapponi,C., Calzolari,M., Bonilauri,P., Baioni,L., Lelli,D. and Moreno,A.",
+                                "title": "Isolation of three novel reassortant phleboviruses, Ponticelli I,II, III, and of Toscana virus from field-collected sand flies in Italy",
+                                "value": "Chiapponi,C., Calzolari,M., Bonilauri,P., Baioni,L., Lelli,D. and Moreno,A."
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Italy": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Italy"
+                              },
+                              "div": 561,
+                              "host": {
+                                "value": "Sandfly"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2013.0013698630137,
+                                  2013.8648152265564
+                                ],
+                                "value": 2013.0013698630137
+                              },
+                              "region": {
+                                "value": "Europe"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SFNVsLgp1: K6R, V333D, T334I, A639E, S640I, T641S"
+                              },
+                              "mutations": {
+                                "SFNVsLgp1": [
+                                  "K6R",
+                                  "V333D",
+                                  "T334I",
+                                  "A639E",
+                                  "S640I",
+                                  "T641S"
+                                ],
+                                "nuc": [
+                                  "A35G",
+                                  "T129C",
+                                  "T150C",
+                                  "T162A",
+                                  "C201T",
+                                  "T1016A",
+                                  "G1017T",
+                                  "C1019T",
+                                  "A1020C",
+                                  "C1934A",
+                                  "C1935G",
+                                  "G1937T",
+                                  "T1938A",
+                                  "A1939T",
+                                  "G6126A",
+                                  "A6144G",
+                                  "T6153C",
+                                  "G6165A",
+                                  "A6201T",
+                                  "G6204A",
+                                  "T6285A",
+                                  "G6314A",
+                                  "A6315G",
+                                  "G6322A",
+                                  "T6325G"
+                                ]
+                              }
+                            },
+                            "name": "TOSV/Italy/181135-15/2013",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Chiapponi,C., Calzolari,M., Bonilauri,P., Baioni,L., Lelli,D. and Moreno,A.",
+                                "title": "Isolation of three novel reassortant phleboviruses, Ponticelli I,II, III, and of Toscana virus from field-collected sand flies in Italy",
+                                "value": "Chiapponi,C., Calzolari,M., Bonilauri,P., Baioni,L., Lelli,D. and Moreno,A."
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Italy": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Italy"
+                              },
+                              "div": 578,
+                              "host": {
+                                "value": "Sandfly"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2013.1810201740532,
+                                  2013.9986301369863
+                                ],
+                                "value": 2013.9986301369863
+                              },
+                              "region": {
+                                "value": "Europe"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000005",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "France": 0.002184260703046136,
+                              "Italy": 0.9966801964521637
+                            },
+                            "entropy": 0.025906960433515126,
+                            "value": "Italy"
+                          },
+                          "div": 553,
+                          "num_date": {
+                            "confidence": [
+                              2004.0591606523165,
+                              2007.9791043848957
+                            ],
+                            "value": 2005.4841309361723
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "France": 0.04805174779237453,
+                          "Italy": 0.9369416433814506,
+                          "Spain": 0.004712706700196153,
+                          "Tunisia": 0.004766692837567481
+                        },
+                        "entropy": 0.2900825167143049,
+                        "value": "Italy"
+                      },
+                      "div": 533,
+                      "num_date": {
+                        "confidence": [
+                          1995.1741318011061,
+                          2000.2416690190928
+                        ],
+                        "value": 1997.6527489247135
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "France": 0.04006842021894237,
+                      "Italy": 0.9392606417744768,
+                      "Spain": 0.005968218754328864,
+                      "Tunisia": 0.007075740227961129
+                    },
+                    "entropy": 0.2956597548088746,
+                    "value": "Italy"
+                  },
+                  "div": 529,
+                  "num_date": {
+                    "confidence": [
+                      1993.1720944711478,
+                      1998.5674195858885
+                    ],
+                    "value": 1995.7885340777734
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "France": 0.09505780353000066,
+                  "Italy": 0.42676647884131047,
+                  "Spain": 0.09751287071564925,
+                  "Tunisia": 0.22997226601754217
+                },
+                "entropy": 1.5395149593070832,
+                "value": "Italy"
+              },
+              "div": 431,
+              "num_date": {
+                "confidence": [
+                  1935.7247557937935,
+                  1946.2386658846665
+                ],
+                "value": 1940.5637812773566
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000006",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "Algeria": 0.17315791266833408,
+              "Italy": 0.20808739659936623,
+              "Spain": 0.1768006138982545,
+              "Tunisia": 0.16812228549043243
+            },
+            "entropy": 1.7800127977543663,
+            "value": "Italy"
+          },
+          "div": 314,
+          "num_date": {
+            "confidence": [
+              1868.4619634764642,
+              1883.7714993728703
+            ],
+            "value": 1874.5043968441723
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "SFNVsLgp1: E235K, E250D, R255K, R268K, R275K, D286N, L295M, A301T, A339P, R425K, E462D, I465T, D497E, T499N, F574S, V642A, S714N, T793K, I801T, N834S, N838S, D870E, Q887K, S963T, N1146S, I1149V, R1327K, N1363S, I1381V, C1461Y, N1462S, D1566E, S1567A, T1617S, V1722I, R1729K, V1741I, G1757S, V1883I, G1950S, S2001N, R2071K, R2077K"
+          },
+          "mutations": {
+            "SFNVsLgp1": [
+              "E235K",
+              "E250D",
+              "R255K",
+              "R268K",
+              "R275K",
+              "D286N",
+              "L295M",
+              "A301T",
+              "A339P",
+              "R425K",
+              "E462D",
+              "I465T",
+              "D497E",
+              "T499N",
+              "F574S",
+              "V642A",
+              "S714N",
+              "T793K",
+              "I801T",
+              "N834S",
+              "N838S",
+              "D870E",
+              "Q887K",
+              "S963T",
+              "N1146S",
+              "I1149V",
+              "R1327K",
+              "N1363S",
+              "I1381V",
+              "C1461Y",
+              "N1462S",
+              "D1566E",
+              "S1567A",
+              "T1617S",
+              "V1722I",
+              "R1729K",
+              "V1741I",
+              "G1757S",
+              "V1883I",
+              "G1950S",
+              "S2001N",
+              "R2071K",
+              "R2077K"
+            ],
+            "nuc": [
+              "A75C",
+              "C99T",
+              "A108T",
+              "A111G",
+              "C150T",
+              "T159C",
+              "T162A",
+              "C168T",
+              "A186G",
+              "G195A",
+              "T198A",
+              "T201G",
+              "G207A",
+              "C222T",
+              "T228A",
+              "T235C",
+              "T267A",
+              "A273G",
+              "A282T",
+              "T288C",
+              "A291G",
+              "G294A",
+              "A306C",
+              "G312A",
+              "T316C",
+              "A318G",
+              "T339A",
+              "C342T",
+              "A348G",
+              "A366T",
+              "G393T",
+              "A405C",
+              "C411A",
+              "A417T",
+              "A423C",
+              "C426T",
+              "A432T",
+              "T435C",
+              "G438A",
+              "C444G",
+              "A447G",
+              "C456T",
+              "G459C",
+              "A462G",
+              "T489C",
+              "T501G",
+              "C504T",
+              "A510G",
+              "A537G",
+              "T543A",
+              "C549T",
+              "C552T",
+              "G558A",
+              "C564T",
+              "A579G",
+              "G591A",
+              "A597G",
+              "A624G",
+              "A630G",
+              "T633C",
+              "T636C",
+              "T642A",
+              "T666C",
+              "A675G",
+              "C690T",
+              "G711A",
+              "T714A",
+              "G721A",
+              "A723G",
+              "C729A",
+              "G744A",
+              "G753A",
+              "T762A",
+              "G768C",
+              "G777A",
+              "G782A",
+              "G783A",
+              "A786G",
+              "G798A",
+              "T801C",
+              "C804A",
+              "C816T",
+              "A819G",
+              "G821A",
+              "A822G",
+              "G840A",
+              "G842A",
+              "A843G",
+              "T858C",
+              "C864T",
+              "A873G",
+              "G874A",
+              "C876T",
+              "C879A",
+              "T885C",
+              "A894G",
+              "G900A",
+              "C901A",
+              "C906T",
+              "G912A",
+              "G919A",
+              "C975T",
+              "G981A",
+              "C984T",
+              "A993T",
+              "T1005C",
+              "T1008A",
+              "G1023A",
+              "A1026T",
+              "G1032C",
+              "G1033C",
+              "T1035A",
+              "T1038G",
+              "A1041G",
+              "T1053C",
+              "G1059A",
+              "A1065G",
+              "G1071C",
+              "T1098C",
+              "A1116G",
+              "A1128C",
+              "T1149C",
+              "T1161G",
+              "T1162C",
+              "G1164A",
+              "A1179T",
+              "A1191T",
+              "G1209A",
+              "G1212A",
+              "C1230A",
+              "C1239T",
+              "T1240C",
+              "G1254A",
+              "G1260A",
+              "C1273T",
+              "A1278G",
+              "G1287C",
+              "G1292A",
+              "T1296C",
+              "T1314C",
+              "A1326G",
+              "C1335T",
+              "G1341A",
+              "T1347C",
+              "C1356G",
+              "A1401T",
+              "G1404C",
+              "T1407C",
+              "T1412C",
+              "A1416T",
+              "G1422A",
+              "G1428T",
+              "G1437A",
+              "T1443A",
+              "C1455A",
+              "C1456T",
+              "A1458G",
+              "G1464A",
+              "A1470T",
+              "G1485A",
+              "G1494A",
+              "T1509G",
+              "G1512A",
+              "C1514A",
+              "C1515T",
+              "G1518A",
+              "T1524C",
+              "C1533T",
+              "C1545T",
+              "A1560T",
+              "A1563G",
+              "A1587C",
+              "T1593C",
+              "A1596T",
+              "T1608C",
+              "C1623T",
+              "C1626G",
+              "T1635C",
+              "C1641T",
+              "T1654C",
+              "C1657T",
+              "T1665G",
+              "A1671G",
+              "T1675C",
+              "A1689C",
+              "T1704C",
+              "C1728T",
+              "T1739C",
+              "C1740A",
+              "T1741C",
+              "A1743G",
+              "T1746C",
+              "T1749A",
+              "C1770A",
+              "A1779G",
+              "C1806G",
+              "A1809C",
+              "A1821T",
+              "T1824C",
+              "T1830C",
+              "T1842C",
+              "T1848A",
+              "G1854A",
+              "A1869G",
+              "A1875T",
+              "T1878A",
+              "A1896G",
+              "T1902C",
+              "T1905C",
+              "A1914C",
+              "A1920G",
+              "C1923T",
+              "C1929T",
+              "C1935A",
+              "T1941A",
+              "T1943C",
+              "G1944A",
+              "T1950C",
+              "A1959T",
+              "A1971C",
+              "C1975T",
+              "A1977G",
+              "C1984T",
+              "T1989C",
+              "T1993C",
+              "A1995G",
+              "G1998A",
+              "C2001T",
+              "G2004A",
+              "A2007G",
+              "T2022C",
+              "C2028T",
+              "G2061A",
+              "A2064G",
+              "T2070A",
+              "A2103G",
+              "T2118C",
+              "G2121A",
+              "C2128T",
+              "C2139T",
+              "C2145T",
+              "C2148T",
+              "G2151A",
+              "C2152T",
+              "A2154G",
+              "G2159A",
+              "C2170A",
+              "A2172G",
+              "A2175T",
+              "C2184T",
+              "T2187A",
+              "C2196T",
+              "G2202A",
+              "A2205T",
+              "A2208T",
+              "G2211A",
+              "C2220T",
+              "A2229G",
+              "T2241G",
+              "T2247C",
+              "C2253T",
+              "T2256C",
+              "G2268A",
+              "A2274T",
+              "A2277G",
+              "T2280C",
+              "T2292C",
+              "T2298C",
+              "T2304C",
+              "A2307G",
+              "A2313G",
+              "C2325T",
+              "A2334G",
+              "T2338C",
+              "G2367A",
+              "G2370A",
+              "T2382C",
+              "G2388T",
+              "A2391T",
+              "C2396A",
+              "A2397G",
+              "T2401C",
+              "C2418G",
+              "T2420C",
+              "C2436T",
+              "C2442T",
+              "T2451C",
+              "A2460G",
+              "C2472T",
+              "A2478T",
+              "A2490G",
+              "A2499G",
+              "C2505A",
+              "A2519G",
+              "T2520C",
+              "G2523A",
+              "A2531G",
+              "C2535T",
+              "A2538C",
+              "C2550T",
+              "G2553A",
+              "T2562C",
+              "A2565G",
+              "T2583C",
+              "A2586G",
+              "T2592C",
+              "C2604T",
+              "T2607C",
+              "T2619C",
+              "C2622T",
+              "G2625A",
+              "C2628G",
+              "A2634G",
+              "C2637T",
+              "T2643C",
+              "A2652G",
+              "A2658G",
+              "C2667T",
+              "C2677A",
+              "A2694G",
+              "T2706C",
+              "G2712A",
+              "A2721G",
+              "A2724G",
+              "C2727T",
+              "G2736A",
+              "A2742G",
+              "C2751T",
+              "G2760A",
+              "C2763A",
+              "C2767T",
+              "G2775A",
+              "A2778G",
+              "T2805C",
+              "T2817A",
+              "A2829G",
+              "A2841T",
+              "G2844A",
+              "G2850A",
+              "G2859A",
+              "A2871G",
+              "A2886T",
+              "C2889T",
+              "C2892T",
+              "A2895G",
+              "T2905A",
+              "C2907T",
+              "A2916C",
+              "T2922C",
+              "C2934T",
+              "G2955A",
+              "A2964G",
+              "C2970A",
+              "T2976A",
+              "T2979C",
+              "T2994C",
+              "T2997A",
+              "A3012G",
+              "A3015G",
+              "T3018C",
+              "A3027G",
+              "T3033C",
+              "C3036T",
+              "A3045C",
+              "T3048C",
+              "A3051G",
+              "T3057A",
+              "T3060C",
+              "G3066A",
+              "A3078G",
+              "C3081T",
+              "T3090C",
+              "G3096A",
+              "A3105C",
+              "C3108T",
+              "G3111A",
+              "T3132C",
+              "T3153C",
+              "G3159A",
+              "T3189C",
+              "A3204C",
+              "G3216A",
+              "T3237C",
+              "G3258A",
+              "G3288A",
+              "C3307T",
+              "T3309A",
+              "T3339C",
+              "A3342G",
+              "C3348T",
+              "A3351G",
+              "G3354A",
+              "G3381T",
+              "T3384C",
+              "C3399T",
+              "C3423T",
+              "T3429C",
+              "T3444C",
+              "A3455G",
+              "G3462A",
+              "A3463G",
+              "A3468G",
+              "C3481T",
+              "G3543A",
+              "C3546A",
+              "G3549A",
+              "A3552G",
+              "C3561T",
+              "A3567C",
+              "G3594A",
+              "T3609C",
+              "T3615C",
+              "G3621A",
+              "T3630C",
+              "T3645C",
+              "T3648C",
+              "T3651C",
+              "T3654A",
+              "C3657T",
+              "T3666G",
+              "G3669A",
+              "A3672C",
+              "G3675A",
+              "T3678C",
+              "G3705A",
+              "A3729G",
+              "C3741A",
+              "C3762T",
+              "C3789T",
+              "A3804G",
+              "T3810C",
+              "A3822G",
+              "C3825T",
+              "A3828G",
+              "G3831A",
+              "T3837C",
+              "C3849T",
+              "C3852T",
+              "T3855A",
+              "G3858A",
+              "C3882T",
+              "G3900A",
+              "G3903A",
+              "T3915C",
+              "T3918C",
+              "G3921T",
+              "C3930T",
+              "T3939C",
+              "C3945T",
+              "A3951G",
+              "A3963G",
+              "T3966C",
+              "G3975A",
+              "G3987A",
+              "T3993A",
+              "A3996G",
+              "G3998A",
+              "C4008T",
+              "T4011C",
+              "C4023A",
+              "C4032T",
+              "T4065C",
+              "A4077G",
+              "A4080G",
+              "A4083G",
+              "G4089A",
+              "T4092C",
+              "A4106G",
+              "T4107C",
+              "T4122C",
+              "A4125G",
+              "A4134G",
+              "G4149A",
+              "G4158A",
+              "A4159G",
+              "T4162C",
+              "C4167T",
+              "G4173A",
+              "G4185A",
+              "T4188C",
+              "A4194C",
+              "C4198T",
+              "T4209A",
+              "A4212G",
+              "T4224C",
+              "A4230G",
+              "T4236C",
+              "G4239C",
+              "A4245G",
+              "C4251T",
+              "A4254C",
+              "T4260A",
+              "C4263A",
+              "T4266C",
+              "A4269G",
+              "T4281A",
+              "C4296G",
+              "C4305T",
+              "C4311T",
+              "A4371G",
+              "C4377A",
+              "T4383C",
+              "C4389T",
+              "G4392A",
+              "C4395A",
+              "G4400A",
+              "C4401T",
+              "A4403G",
+              "C4404T",
+              "G4422A",
+              "G4431A",
+              "T4435C",
+              "C4440T",
+              "G4449A",
+              "A4455G",
+              "T4458C",
+              "T4464A",
+              "T4470C",
+              "T4482C",
+              "T4485C",
+              "G4488A",
+              "C4497T",
+              "C4506T",
+              "A4509C",
+              "A4512G",
+              "C4518T",
+              "C4533T",
+              "G4536A",
+              "T4548C",
+              "T4566C",
+              "A4569T",
+              "T4581C",
+              "G4587A",
+              "A4590G",
+              "T4593A",
+              "T4617C",
+              "C4626T",
+              "G4644A",
+              "C4647T",
+              "G4650A",
+              "T4662C",
+              "A4665G",
+              "C4674A",
+              "C4683T",
+              "C4689A",
+              "T4698A",
+              "A4704G",
+              "A4707G",
+              "T4716A",
+              "T4717G",
+              "A4725T",
+              "T4731C",
+              "G4770A",
+              "C4788T",
+              "A4791G",
+              "C4800T",
+              "T4806C",
+              "A4809C",
+              "A4818G",
+              "C4824G",
+              "C4830T",
+              "G4851A",
+              "C4854T",
+              "G4866A",
+              "A4867T",
+              "T4869A",
+              "A4878G",
+              "C4885T",
+              "A4890G",
+              "C4905T",
+              "A4920G",
+              "A4923G",
+              "A4929G",
+              "G4944A",
+              "T4947C",
+              "C4956T",
+              "C4962T",
+              "A4965G",
+              "C4984T",
+              "T4992C",
+              "C4998A",
+              "G5013A",
+              "G5049A",
+              "C5064A",
+              "T5071C",
+              "G5073A",
+              "A5079G",
+              "G5082A",
+              "T5085C",
+              "T5088A",
+              "A5100T",
+              "A5109T",
+              "A5112G",
+              "C5115T",
+              "A5121G",
+              "A5148T",
+              "G5157A",
+              "T5169C",
+              "T5181C",
+              "G5182A",
+              "C5184T",
+              "T5187C",
+              "G5193A",
+              "G5204A",
+              "T5220G",
+              "C5235T",
+              "A5238G",
+              "G5239A",
+              "G5244A",
+              "C5250T",
+              "G5265A",
+              "G5283A",
+              "G5287A",
+              "A5289C",
+              "T5295C",
+              "T5304C",
+              "C5307T",
+              "C5310G",
+              "C5322T",
+              "T5334C",
+              "T5335C",
+              "G5361A",
+              "T5367C",
+              "G5382T",
+              "C5385A",
+              "G5388A",
+              "G5454T",
+              "A5460T",
+              "T5466C",
+              "T5484C",
+              "T5490C",
+              "T5497C",
+              "C5500T",
+              "C5502G",
+              "A5517T",
+              "G5526A",
+              "A5535G",
+              "C5538T",
+              "A5541C",
+              "C5562T",
+              "A5574G",
+              "A5577C",
+              "T5589C",
+              "T5593C",
+              "A5595T",
+              "C5598T",
+              "T5604A",
+              "T5607A",
+              "T5613C",
+              "T5625C",
+              "A5658G",
+              "T5664C",
+              "G5665A",
+              "G5673A",
+              "T5682C",
+              "C5685T",
+              "A5688C",
+              "A5703T",
+              "T5710C",
+              "C5721A",
+              "T5722C",
+              "G5724A",
+              "G5727C",
+              "C5733T",
+              "A5742G",
+              "G5751A",
+              "A5760C",
+              "A5763T",
+              "G5766A",
+              "G5775A",
+              "T5781C",
+              "T5793C",
+              "C5803T",
+              "A5808G",
+              "T5829A",
+              "G5832A",
+              "A5844G",
+              "T5847C",
+              "G5850A",
+              "G5862T",
+              "G5866A",
+              "A5877G",
+              "T5892A",
+              "A5895G",
+              "A5898T",
+              "G5901A",
+              "A5919G",
+              "G5943A",
+              "C5952T",
+              "T5955C",
+              "C5958A",
+              "A5967G",
+              "G5970A",
+              "T5973A",
+              "C5979T",
+              "A5982G",
+              "T5985C",
+              "A5991G",
+              "T5997C",
+              "T6003C",
+              "T6018G",
+              "G6020A",
+              "C6021T",
+              "T6027C",
+              "T6033C",
+              "T6042C",
+              "A6051G",
+              "C6060T",
+              "C6081T",
+              "G6090A",
+              "T6100C",
+              "A6102G",
+              "C6111T",
+              "G6117A",
+              "A6126G",
+              "G6129A",
+              "A6135G",
+              "G6144A",
+              "A6147T",
+              "A6159G",
+              "G6162A",
+              "A6165G",
+              "C6177G",
+              "A6180G",
+              "T6190C",
+              "A6192G",
+              "A6225T",
+              "G6230A",
+              "A6237T",
+              "G6248A",
+              "T6273C",
+              "G6282A",
+              "T6291C",
+              "T6308A",
+              "G6309A",
+              "A6314G",
+              "G6316C",
+              "A6318C",
+              "G6321A",
+              "G6323A",
+              "A6324G",
+              "G6325A",
+              "G6333A",
+              "G6334A",
+              "A6335G",
+              "G6338T",
+              "T6341A",
+              "A6342G",
+              "G6346T",
+              "T6347A",
+              "G6376A"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G567A",
+                  "G618A",
+                  "A834G",
+                  "C1029T",
+                  "C1032T",
+                  "A1047G",
+                  "T1092C",
+                  "T1191C",
+                  "A1275G",
+                  "A1539G",
+                  "A1575G",
+                  "G1737A",
+                  "T1956C",
+                  "G2241A",
+                  "C2368T",
+                  "G2418A",
+                  "C2577T",
+                  "T2655C",
+                  "A2844T",
+                  "A3030G",
+                  "T3129C",
+                  "A3180G",
+                  "T3492C",
+                  "C3567T",
+                  "T3696C",
+                  "C3708T",
+                  "A3759G",
+                  "T3957C",
+                  "A3984G",
+                  "C4026T",
+                  "G4095A",
+                  "A4206T",
+                  "A4323G",
+                  "T4554C",
+                  "T4611C",
+                  "T4710C",
+                  "G4743A",
+                  "A5205G",
+                  "C5289T",
+                  "C5355T",
+                  "C5373T",
+                  "C5496T",
+                  "T5523C",
+                  "C5697A",
+                  "A5748C",
+                  "G6075A",
+                  "T6312C",
+                  "G6353T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "SFNVsLgp1: K275R"
+                  },
+                  "mutations": {
+                    "SFNVsLgp1": [
+                      "K275R"
+                    ],
+                    "nuc": [
+                      "A842G",
+                      "G1563A",
+                      "G2103A",
+                      "A3333G",
+                      "C4435T"
+                    ]
+                  }
+                },
+                "name": "TOSV/Spain/EsPhGR40/2003-2004",
+                "node_attrs": {
+                  "author": {
+                    "author": "Collao,X., Palacios,G., Sanbonmatsu-Gamez,S., Perez-Ruiz,M., Negredo,A.I., Navarro-Mari,J.M., Grandadam,M., Aransay,A.M.,Lipkin,W.I., Tenorio,A. and Sanchez-Seco,M.P.",
+                    "title": "Genetic diversity of Toscana virus",
+                    "value": "Collao,X., Palacios,G., Sanbonmatsu-Gamez,S., Perez-Ruiz,M., Negredo,A.I., Navarro-Mari,J.M., Grandadam,M., Aransay,A.M.,Lipkin,W.I., Tenorio,A. and Sanchez-Seco,M.P."
+                  },
+                  "country": {
+                    "confidence": {
+                      "Spain": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Spain"
+                  },
+                  "div": 516,
+                  "host": {
+                    "value": "Sandfly"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2003.4150684931508,
+                      2003.4865753424658
+                    ],
+                    "value": 2003.4150684931508
+                  },
+                  "region": {
+                    "value": "Europe"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "SFNVsLgp1: D182N, E909D"
+                  },
+                  "mutations": {
+                    "SFNVsLgp1": [
+                      "D182N",
+                      "E909D"
+                    ],
+                    "nuc": [
+                      "C480T",
+                      "G562A",
+                      "C673T",
+                      "A1008T",
+                      "C1431T",
+                      "T2095C",
+                      "A2649T",
+                      "G2745T",
+                      "G3981T",
+                      "C4011T",
+                      "T4506C",
+                      "T4641C",
+                      "A6198G",
+                      "G6368A"
+                    ]
+                  }
+                },
+                "name": "TOSV/Spain/ESH_62100/1993-1999",
+                "node_attrs": {
+                  "author": {
+                    "author": "Collao,X., Sanbonmatsu,S., Perez-Ruiz,M., Sanchez-Seco,M.P. and Tenorio,A",
+                    "value": "Collao,X., Sanbonmatsu,S., Perez-Ruiz,M., Sanchez-Seco,M.P. and Tenorio,A"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Spain": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Spain"
+                  },
+                  "div": 525,
+                  "host": {
+                    "value": "Human"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      1996.1311587294379,
+                      1996.9986338797814
+                    ],
+                    "value": 1996.9986338797814
+                  },
+                  "region": {
+                    "value": "Europe"
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "France": 0.00180342932852577,
+                  "Spain": 0.9966173198103147
+                },
+                "entropy": 0.027121766291839773,
+                "value": "Spain"
+              },
+              "div": 511,
+              "num_date": {
+                "confidence": [
+                  1989.515825281253,
+                  1993.754155825786
+                ],
+                "value": 1992.6205257381039
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T336C",
+                  "A372T",
+                  "T687G",
+                  "C741T",
+                  "T1546C",
+                  "C2214T",
+                  "T2301C",
+                  "C2322T",
+                  "T2532C",
+                  "A2769G",
+                  "G3483A",
+                  "C3507T",
+                  "C3516T",
+                  "C4111T",
+                  "A4764G",
+                  "C5103T",
+                  "G5427A",
+                  "G5436A",
+                  "T5619C",
+                  "G5772A",
+                  "G6069A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G111A",
+                      "G126A",
+                      "A195T",
+                      "C204T",
+                      "C246T",
+                      "C271T",
+                      "T465C",
+                      "G723A",
+                      "G843A",
+                      "T1062C",
+                      "T1281C",
+                      "T1416C",
+                      "C1593T",
+                      "C1674T",
+                      "A2250T",
+                      "A2370G",
+                      "G2634A",
+                      "T2688C",
+                      "G3306A",
+                      "T3321C",
+                      "G3342A",
+                      "T3345C",
+                      "T3381A",
+                      "T3561C",
+                      "A4041G",
+                      "C4065T",
+                      "C4128A",
+                      "G4170A",
+                      "A4329G",
+                      "A4365G",
+                      "A4536G",
+                      "T4647C",
+                      "C4680T",
+                      "G5010A",
+                      "A5361G",
+                      "G5586A",
+                      "C5661T",
+                      "T5757C",
+                      "T6311C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T2563C",
+                          "A4689G",
+                          "C5664T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "SFNVsLgp1: R335K, P339S, S574F, T722A, K826R, K1080R, K1124R, P1793S, S1950G, N2001S"
+                          },
+                          "mutations": {
+                            "SFNVsLgp1": [
+                              "R335K",
+                              "P339S",
+                              "S574F",
+                              "T722A",
+                              "K826R",
+                              "K1080R",
+                              "K1124R",
+                              "P1793S",
+                              "S1950G",
+                              "N2001S"
+                            ],
+                            "nuc": [
+                              "C651T",
+                              "T816C",
+                              "A840G",
+                              "G963A",
+                              "A981G",
+                              "T987C",
+                              "G1017A",
+                              "G1022A",
+                              "C1033T",
+                              "A1059G",
+                              "C1086T",
+                              "A1110G",
+                              "C1739T",
+                              "A1740C",
+                              "G1920A",
+                              "C1965T",
+                              "G2082A",
+                              "G2091A",
+                              "A2182G",
+                              "C2266T",
+                              "A2487G",
+                              "A2495G",
+                              "C3018T",
+                              "C3193T",
+                              "G3195A",
+                              "A3257G",
+                              "T3378C",
+                              "A3389G",
+                              "T3864C",
+                              "A3948G",
+                              "T4065C",
+                              "C4162T",
+                              "C4359T",
+                              "A4392G",
+                              "T4551C",
+                              "C4668A",
+                              "G4824A",
+                              "T5031C",
+                              "T5190C",
+                              "A5364T",
+                              "C5395T",
+                              "G5400A",
+                              "T5517C",
+                              "C5541T",
+                              "A5866G",
+                              "A6015G",
+                              "A6020G",
+                              "A6090G",
+                              "G6210A"
+                            ]
+                          }
+                        },
+                        "name": "TOSV/Spain/LCR_623/2017-08-29",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere",
+                            "value": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Spain": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Spain"
+                          },
+                          "div": 571,
+                          "division": {
+                            "value": "C\u00f3rdoba"
+                          },
+                          "host": {
+                            "value": "Human"
+                          },
+                          "location": {
+                            "value": "C\u00f3rdoba"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2017.658904109589,
+                              2017.658904109589
+                            ],
+                            "value": 2017.658904109589
+                          },
+                          "region": {
+                            "value": "Europe"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "SFNVsLgp1: T465I, Y1174I"
+                          },
+                          "mutations": {
+                            "SFNVsLgp1": [
+                              "T465I",
+                              "Y1174I"
+                            ],
+                            "nuc": [
+                              "A1110T",
+                              "A1248T",
+                              "G1278A",
+                              "C1412T",
+                              "A1614G",
+                              "T1632C",
+                              "T2139C",
+                              "C2304T",
+                              "T2388C",
+                              "T2478C",
+                              "C2595T",
+                              "G2670A",
+                              "G2745A",
+                              "C3255T",
+                              "C3297T",
+                              "C3321T",
+                              "C3537T",
+                              "T3538A",
+                              "A3539T",
+                              "C3564T",
+                              "G3582A",
+                              "G4083C",
+                              "C4122T",
+                              "T4167C",
+                              "A4278T",
+                              "G4374A",
+                              "T4554C",
+                              "C4893T",
+                              "C5074T",
+                              "A5157G",
+                              "T5406C",
+                              "C5457T",
+                              "A6072G",
+                              "A6129T",
+                              "T6153C"
+                            ]
+                          }
+                        },
+                        "name": "TOSV/Spain/LCR_367/2015-08-20",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere",
+                            "value": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Spain": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Spain"
+                          },
+                          "div": 557,
+                          "division": {
+                            "value": "C\u00f3rdoba"
+                          },
+                          "host": {
+                            "value": "Human"
+                          },
+                          "location": {
+                            "value": "C\u00f3rdoba"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2015.6342465753426,
+                              2015.6342465753426
+                            ],
+                            "value": 2015.6342465753426
+                          },
+                          "region": {
+                            "value": "Europe"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000011",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "France": 0.0039825918930748265,
+                          "Spain": 0.9936784422931451
+                        },
+                        "entropy": 0.04566937269659989,
+                        "value": "Spain"
+                      },
+                      "div": 522,
+                      "num_date": {
+                        "confidence": [
+                          1990.7898068480242,
+                          1997.0762344239847
+                        ],
+                        "value": 1994.0452963676505
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "SFNVsLgp1: P338S"
+                      },
+                      "mutations": {
+                        "SFNVsLgp1": [
+                          "P338S"
+                        ],
+                        "nuc": [
+                          "A249G",
+                          "G990A",
+                          "C1030T",
+                          "A1371G",
+                          "C1476T",
+                          "A1527G",
+                          "A1554G",
+                          "A2136G",
+                          "T2220C",
+                          "G2769A",
+                          "C2883T",
+                          "T3492C",
+                          "G3513A",
+                          "C3528T",
+                          "A3591T",
+                          "T3714C",
+                          "T3825C",
+                          "T3921C",
+                          "A4299G",
+                          "T4713C",
+                          "C5613T",
+                          "T5865C",
+                          "G5877A",
+                          "G5883A",
+                          "T6081C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C1062T",
+                              "A2037G",
+                              "A4816C",
+                              "C5749T",
+                              "T6141C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SFNVsLgp1: K2071R"
+                              },
+                              "mutations": {
+                                "SFNVsLgp1": [
+                                  "K2071R"
+                                ],
+                                "nuc": [
+                                  "C423T",
+                                  "C435T",
+                                  "T870A",
+                                  "T1092C",
+                                  "A1293G",
+                                  "C2488T",
+                                  "C3570T",
+                                  "C3810T",
+                                  "T5115C",
+                                  "A6230G",
+                                  "C6291T",
+                                  "A6326G"
+                                ]
+                              }
+                            },
+                            "name": "TOSV/Spain/LCR_228/2015-08-15",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere",
+                                "value": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Spain": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13,
+                                "value": "Spain"
+                              },
+                              "div": 561,
+                              "division": {
+                                "value": "C\u00f3rdoba"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "location": {
+                                "value": "Guadalcazar"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2015.6205479452055,
+                                  2015.6205479452055
+                                ],
+                                "value": 2015.6205479452055
+                              },
+                              "region": {
+                                "value": "Europe"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SFNVsLgp1: S864T"
+                              },
+                              "mutations": {
+                                "SFNVsLgp1": [
+                                  "S864T"
+                                ],
+                                "nuc": [
+                                  "T609C",
+                                  "G684A",
+                                  "C1302T",
+                                  "T1683C",
+                                  "C2157T",
+                                  "C2181T",
+                                  "T2608A",
+                                  "T3447C",
+                                  "T4305C",
+                                  "C4749T",
+                                  "T6312C"
+                                ]
+                              }
+                            },
+                            "name": "TOSV/Spain/LCR_853/2019-09-30",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere",
+                                "value": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Spain": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Spain"
+                              },
+                              "div": 560,
+                              "division": {
+                                "value": "C\u00f3rdoba"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "location": {
+                                "value": "Pedro Abad"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2019.7465753424658,
+                                  2019.7465753424658
+                                ],
+                                "value": 2019.7465753424658
+                              },
+                              "region": {
+                                "value": "Europe"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000013",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "Spain": 0.9998519219325922
+                            },
+                            "entropy": 0.0016548299639904218,
+                            "value": "Spain"
+                          },
+                          "div": 549,
+                          "num_date": {
+                            "confidence": [
+                              2008.188716013154,
+                              2011.8479395836928
+                            ],
+                            "value": 2010.3784135909957
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C1005T",
+                              "G1803A",
+                              "A2211G",
+                              "A5247T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SFNVsLgp1: K2077R"
+                              },
+                              "mutations": {
+                                "SFNVsLgp1": [
+                                  "K2077R"
+                                ],
+                                "nuc": [
+                                  "T99C",
+                                  "G273A",
+                                  "T789C",
+                                  "T1683C",
+                                  "T1725C",
+                                  "T1791C",
+                                  "C1950T",
+                                  "C2286T",
+                                  "C2532T",
+                                  "T3438C",
+                                  "T3507C",
+                                  "G3618A",
+                                  "G4332A",
+                                  "G4356A",
+                                  "C5475T",
+                                  "A5487G",
+                                  "C5619T",
+                                  "A6248G"
+                                ]
+                              }
+                            },
+                            "name": "TOSV/Spain/LCR_654/2017-09-20",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere",
+                                "value": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Spain": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Spain"
+                              },
+                              "div": 566,
+                              "division": {
+                                "value": "C\u00f3rdoba"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "location": {
+                                "value": "C\u00f3rdoba"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2017.7191780821918,
+                                  2017.7191780821918
+                                ],
+                                "value": 2017.7191780821918
+                              },
+                              "region": {
+                                "value": "Europe"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SFNVsLgp1: D2031E"
+                              },
+                              "mutations": {
+                                "SFNVsLgp1": [
+                                  "D2031E"
+                                ],
+                                "nuc": [
+                                  "T183C",
+                                  "G186A",
+                                  "A591G",
+                                  "G624A",
+                                  "A711G",
+                                  "T1083C",
+                                  "C1128T",
+                                  "G1671A",
+                                  "G1896A",
+                                  "T1929C",
+                                  "C2754T",
+                                  "C2796T",
+                                  "C3105T",
+                                  "C3367T",
+                                  "T4243C",
+                                  "C4266T",
+                                  "T6060C",
+                                  "T6111G"
+                                ]
+                              }
+                            },
+                            "name": "TOSV/Spain/LCR_756/2018-10-29",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere",
+                                "value": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Spain": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Spain"
+                              },
+                              "div": 566,
+                              "division": {
+                                "value": "C\u00f3rdoba"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "location": {
+                                "value": "C\u00f3rdoba"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2018.8260273972603,
+                                  2018.8260273972603
+                                ],
+                                "value": 2018.8260273972603
+                              },
+                              "region": {
+                                "value": "Europe"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000014",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "Spain": 0.9997426937671188
+                            },
+                            "entropy": 0.0027354445832751574,
+                            "value": "Spain"
+                          },
+                          "div": 548,
+                          "num_date": {
+                            "confidence": [
+                              2006.9161749710038,
+                              2010.5551553562498
+                            ],
+                            "value": 2008.9454973438442
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "Spain": 0.9997686476277786
+                        },
+                        "entropy": 0.0024629516315069887,
+                        "value": "Spain"
+                      },
+                      "div": 544,
+                      "num_date": {
+                        "confidence": [
+                          2004.5247254884025,
+                          2008.456558049396
+                        ],
+                        "value": 2006.861042222208
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000010",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "France": 0.00593945182671799,
+                      "Spain": 0.9912047683617223
+                    },
+                    "entropy": 0.05982529158017268,
+                    "value": "Spain"
+                  },
+                  "div": 519,
+                  "num_date": {
+                    "confidence": [
+                      1988.6872169367005,
+                      1994.9230881531537
+                    ],
+                    "value": 1992.5789962918652
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T240C",
+                      "T504C",
+                      "C838T",
+                      "C1071T",
+                      "G1242A",
+                      "A1332G",
+                      "C1383T",
+                      "A1614G",
+                      "T1632C",
+                      "T1641C",
+                      "A1761G",
+                      "T1797C",
+                      "C1842T",
+                      "G1869A",
+                      "T2238C",
+                      "A2367G",
+                      "A2574G",
+                      "T2637C",
+                      "C2893T",
+                      "C2922T",
+                      "C2946T",
+                      "C2994T",
+                      "T3036A",
+                      "G3078A",
+                      "C3084T",
+                      "C3540T",
+                      "A3735G",
+                      "A3831G",
+                      "A3906G",
+                      "G3981A",
+                      "C4099T",
+                      "C4335T",
+                      "C4413T",
+                      "T4426C",
+                      "A4452T",
+                      "A4557G",
+                      "A4779G",
+                      "T4830C",
+                      "T4962C",
+                      "T4984C",
+                      "T5040C",
+                      "G5112A",
+                      "G5121A",
+                      "T5208C",
+                      "T5250C",
+                      "T5322C",
+                      "A5442T",
+                      "T5733C",
+                      "C5793T",
+                      "T6024C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "SFNVsLgp1: I676V, E1693G, S1917N, K2071R"
+                      },
+                      "mutations": {
+                        "SFNVsLgp1": [
+                          "I676V",
+                          "E1693G",
+                          "S1917N",
+                          "K2071R"
+                        ],
+                        "nuc": [
+                          "C336T",
+                          "G348A",
+                          "T426C",
+                          "A438G",
+                          "T441A",
+                          "C489T",
+                          "A585G",
+                          "C858T",
+                          "C927T",
+                          "G963A",
+                          "C1032T",
+                          "G1665A",
+                          "G1671A",
+                          "C1675T",
+                          "T1725A",
+                          "T1818C",
+                          "A1848G",
+                          "G1995A",
+                          "A2044G",
+                          "T2128C",
+                          "A2133G",
+                          "T2175C",
+                          "A2466G",
+                          "T2688C",
+                          "A2988G",
+                          "C3033T",
+                          "C3105T",
+                          "C3163T",
+                          "T3345C",
+                          "C3522T",
+                          "C3615T",
+                          "T3642A",
+                          "G3690A",
+                          "A3975G",
+                          "T4111C",
+                          "C4290T",
+                          "C4308T",
+                          "C4344T",
+                          "T4404C",
+                          "C4602T",
+                          "C4806T",
+                          "C4809T",
+                          "A4998G",
+                          "C5037T",
+                          "A5096G",
+                          "T5103C",
+                          "G5154A",
+                          "T5184C",
+                          "A5244G",
+                          "T5277C",
+                          "A5283G",
+                          "C5286T",
+                          "T5382C",
+                          "G5502A",
+                          "T5595C",
+                          "C5688T",
+                          "G5768A",
+                          "C5985T",
+                          "A6117T",
+                          "G6156A",
+                          "A6213G",
+                          "A6230G",
+                          "A6326G"
+                        ]
+                      }
+                    },
+                    "name": "TOSV/Spain/LCR_515/2017-07-07",
+                    "node_attrs": {
+                      "author": {
+                        "author": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere",
+                        "value": "Fabiana G\u00e1mbaro, Matthieu Prot, Maria Dolores Fernandez-Garcia, Etienne Simon-Loriere"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Spain": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "Spain"
+                      },
+                      "div": 593,
+                      "division": {
+                        "value": "C\u00f3rdoba"
+                      },
+                      "host": {
+                        "value": "Human"
+                      },
+                      "location": {
+                        "value": "C\u00f3rdoba"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2017.513698630137,
+                          2017.513698630137
+                        ],
+                        "value": 2017.513698630137
+                      },
+                      "region": {
+                        "value": "Europe"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "SFNVsLgp1: P339S"
+                      },
+                      "mutations": {
+                        "SFNVsLgp1": [
+                          "P339S"
+                        ],
+                        "nuc": [
+                          "T108C",
+                          "T864C",
+                          "T906C",
+                          "C1033T",
+                          "T1657C",
+                          "T1857C",
+                          "C3150T",
+                          "G3174A",
+                          "A4422G",
+                          "G4833A",
+                          "G6192A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "SFNVsLgp1: P410S, S459N, N499S, D548N, S838N, R891K, V1068A, I1273V, V1442I, G1801S"
+                          },
+                          "mutations": {
+                            "SFNVsLgp1": [
+                              "P410S",
+                              "S459N",
+                              "N499S",
+                              "D548N",
+                              "S838N",
+                              "R891K",
+                              "V1068A",
+                              "I1273V",
+                              "V1442I",
+                              "G1801S"
+                            ],
+                            "nuc": [
+                              "C129T",
+                              "T147C",
+                              "A165T",
+                              "A228G",
+                              "A543G",
+                              "T555C",
+                              "T987C",
+                              "A1074G",
+                              "T1176C",
+                              "C1246T",
+                              "G1394A",
+                              "A1512G",
+                              "A1514G",
+                              "G1660A",
+                              "A2136T",
+                              "A2211G",
+                              "C2266T",
+                              "G2439A",
+                              "T2472C",
+                              "G2531A",
+                              "G2690A",
+                              "T3210C",
+                              "T3221C",
+                              "G3270A",
+                              "C3567A",
+                              "A3835G",
+                              "A4113G",
+                              "G4296A",
+                              "G4342A",
+                              "T4725C",
+                              "C4794T",
+                              "G4818A",
+                              "T4885C",
+                              "G5016A",
+                              "C5025T",
+                              "G5419A",
+                              "T5445C",
+                              "A5493T",
+                              "T5803C",
+                              "A6117G",
+                              "A6168G",
+                              "G6258A"
+                            ]
+                          }
+                        },
+                        "name": "TOSV/France/Nice/113/2013",
+                        "node_attrs": {
+                          "author": {
+                            "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., Coutard,B., Papageorgiou,N., De Lamballerie,X. and Charrel,R.N",
+                            "title": "Complete Coding Sequences of Three Toscana Virus Strains Isolated from Sandflies in France",
+                            "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., Coutard,B., Papageorgiou,N., De Lamballerie,X. and Charrel,R.N"
+                          },
+                          "country": {
+                            "confidence": {
+                              "France": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "France"
+                          },
+                          "div": 585,
+                          "host": {
+                            "value": "Sandfly"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2013.1085919459822,
+                              2013.9986301369863
+                            ],
+                            "value": 2013.9986301369863
+                          },
+                          "region": {
+                            "value": "Europe"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "SFNVsLgp1: K268E, H576Y"
+                          },
+                          "mutations": {
+                            "SFNVsLgp1": [
+                              "K268E",
+                              "H576Y"
+                            ],
+                            "nuc": [
+                              "A820G",
+                              "C1744T",
+                              "G3015A",
+                              "G3873A",
+                              "A3990G",
+                              "C4482T",
+                              "C5910T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SFNVsLgp1: E497D, A641V"
+                              },
+                              "mutations": {
+                                "SFNVsLgp1": [
+                                  "E497D",
+                                  "A641V"
+                                ],
+                                "nuc": [
+                                  "C450T",
+                                  "G1218A",
+                                  "G1509T",
+                                  "C1940T",
+                                  "G2115A",
+                                  "G3063A",
+                                  "T3084C",
+                                  "T3108C",
+                                  "A3333G",
+                                  "C3528T",
+                                  "C4116T",
+                                  "A4185G",
+                                  "A4314G",
+                                  "C4731T",
+                                  "T5538C",
+                                  "G5559A",
+                                  "C5682T",
+                                  "C5733T",
+                                  "C6132T",
+                                  "A6201G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "TOSV/France/H/IMTSSA/2004-07-09",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Collao,X., Palacios,G., Sanbonmatsu-Gamez,S., Perez-Ruiz,M., Negredo,A.I., Navarro-Mari,J.M., Grandadam,M., Aransay,A.M., Lipkin,W.I., Tenorio,A. and Sanchez-Seco,M.P",
+                                    "title": "Genetic diversity of Toscana virus",
+                                    "value": "Collao,X., Palacios,G., Sanbonmatsu-Gamez,S., Perez-Ruiz,M., Negredo,A.I., Navarro-Mari,J.M., Grandadam,M., Aransay,A.M., Lipkin,W.I., Tenorio,A. and Sanchez-Seco,M.P"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "France": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13,
+                                    "value": "France"
+                                  },
+                                  "div": 570,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2004.5204918032787,
+                                      2004.5204918032787
+                                    ],
+                                    "value": 2004.5204918032787
+                                  },
+                                  "region": {
+                                    "value": "Europe"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "TOSV/France/H4906/2004",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N",
+                                    "title": "Complete Coding Sequences of Six Toscana Virus Strains Isolated from Human Patients in France",
+                                    "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "France": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13,
+                                    "value": "France"
+                                  },
+                                  "div": 570,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2004.0013661202186,
+                                      2004.9986338797814
+                                    ],
+                                    "value": 2004.5204918032787
+                                  },
+                                  "region": {
+                                    "value": "Europe"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000022",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "France": 0.9999405534780821
+                                },
+                                "entropy": 0.0007191793917440276,
+                                "value": "France"
+                              },
+                              "div": 570,
+                              "num_date": {
+                                "confidence": [
+                                  2003.8750565914193,
+                                  2004.5204918032787
+                                ],
+                                "value": 2004.4778741359642
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G6156A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "SFNVsLgp1: R13G, N286D, S838N, T963N"
+                                  },
+                                  "mutations": {
+                                    "SFNVsLgp1": [
+                                      "R13G",
+                                      "N286D",
+                                      "S838N",
+                                      "T963N"
+                                    ],
+                                    "nuc": [
+                                      "A55G",
+                                      "C436T",
+                                      "T741C",
+                                      "A874G",
+                                      "A1212G",
+                                      "G1779A",
+                                      "A2061T",
+                                      "T2184C",
+                                      "G2531A",
+                                      "T2535C",
+                                      "C2592T",
+                                      "C2906A",
+                                      "C3060T",
+                                      "T3126C",
+                                      "T4971C",
+                                      "G5352A",
+                                      "C5367T",
+                                      "T5478C",
+                                      "G5529T",
+                                      "T6081C",
+                                      "G6180A"
+                                    ]
+                                  }
+                                },
+                                "name": "TOSV/Switzerland/1000414117/2018-09-20",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Tschumi,F., Schmutz,S., Kufner,V., Heider,M., Pigny,F., Schreiner,B., Capaul,R., Achermann,Y. and Huber,M",
+                                    "title": "Meningitis and Epididymitis caused by Toscana Virus Infection Imported to Switzerland Diagnosed by Metagenomic Sequencing",
+                                    "value": "Tschumi,F., Schmutz,S., Kufner,V., Heider,M., Pigny,F., Schreiner,B., Capaul,R., Achermann,Y. and Huber,M"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Switzerland": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Switzerland"
+                                  },
+                                  "div": 572,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2018.7191780821918,
+                                      2018.7191780821918
+                                    ],
+                                    "value": 2018.7191780821918
+                                  },
+                                  "region": {
+                                    "value": "Europe"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A6G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "SFNVsLgp1: K255R, V461I, G1353R"
+                                      },
+                                      "mutations": {
+                                        "SFNVsLgp1": [
+                                          "K255R",
+                                          "V461I",
+                                          "G1353R"
+                                        ],
+                                        "nuc": [
+                                          "T582C",
+                                          "G678A",
+                                          "A782G",
+                                          "C858T",
+                                          "T897C",
+                                          "T975C",
+                                          "G1188A",
+                                          "A1257G",
+                                          "G1329A",
+                                          "G1399A",
+                                          "C1635T",
+                                          "C1965T",
+                                          "T2199C",
+                                          "A2268G",
+                                          "T2322C",
+                                          "A2403G",
+                                          "A2943G",
+                                          "G3192A",
+                                          "A3234T",
+                                          "C3672T",
+                                          "T3930C",
+                                          "G4075A",
+                                          "G4164T",
+                                          "C4809T",
+                                          "T5031C",
+                                          "A5091G",
+                                          "T5538C",
+                                          "A5799G",
+                                          "G5886A"
+                                        ]
+                                      }
+                                    },
+                                    "name": "TOSV/France/5963930705/2004-2015",
+                                    "node_attrs": {
+                                      "author": {
+                                        "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N",
+                                        "title": "Complete Coding Sequences of Six Toscana Virus Strains Isolated from Human Patients in France",
+                                        "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "France": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "France"
+                                      },
+                                      "div": 581,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2010.1176648231865,
+                                          2010.9986301369863
+                                        ],
+                                        "value": 2010.9986301369863
+                                      },
+                                      "region": {
+                                        "value": "Europe"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G273A",
+                                          "A294G",
+                                          "T1818C",
+                                          "G3411A",
+                                          "A5019G",
+                                          "T5241C",
+                                          "G6171A",
+                                          "G6352A"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "SFNVsLgp1: I262M, P345S, N362S, E785D, I1367T, V1510I, M1736V"
+                                          },
+                                          "mutations": {
+                                            "SFNVsLgp1": [
+                                              "I262M",
+                                              "P345S",
+                                              "N362S",
+                                              "E785D",
+                                              "I1367T",
+                                              "V1510I",
+                                              "M1736V"
+                                            ],
+                                            "nuc": [
+                                              "C363T",
+                                              "C622T",
+                                              "A804G",
+                                              "C1051T",
+                                              "T1071G",
+                                              "A1103G",
+                                              "T1383C",
+                                              "T1929C",
+                                              "A2373C",
+                                              "C2379G",
+                                              "C2382A",
+                                              "T2388A",
+                                              "G2652A",
+                                              "G3735A",
+                                              "G4068A",
+                                              "T4118C",
+                                              "G4546A",
+                                              "A5224G",
+                                              "T5907A",
+                                              "A6156G"
+                                            ]
+                                          }
+                                        },
+                                        "name": "TOSV/France/MRS2010-4319501/2010-06-28",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Bichaud,L., Nougairede,A., Piorkowski,G., Baronti,C., Moureau,G., De Lamballerie,X. and Charrel,R.N.",
+                                            "title": "Isolation of Toscana virus from the cerebrospinal fluid of a man with meningitis in Marseille, France, 2010",
+                                            "value": "Bichaud,L., Nougairede,A., Piorkowski,G., Baronti,C., Moureau,G., De Lamballerie,X. and Charrel,R.N."
+                                          },
+                                          "country": {
+                                            "confidence": {
+                                              "France": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "France"
+                                          },
+                                          "div": 580,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2010.4890410958903,
+                                              2010.4890410958903
+                                            ],
+                                            "value": 2010.4890410958903
+                                          },
+                                          "region": {
+                                            "value": "Europe"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "SFNVsLgp1: V418I, K634N"
+                                          },
+                                          "mutations": {
+                                            "SFNVsLgp1": [
+                                              "V418I",
+                                              "K634N"
+                                            ],
+                                            "nuc": [
+                                              "G186C",
+                                              "A228T",
+                                              "A303G",
+                                              "C864A",
+                                              "G999A",
+                                              "C1005T",
+                                              "A1008T",
+                                              "G1270A",
+                                              "G1920C",
+                                              "A1941T",
+                                              "A2109C",
+                                              "T2199C",
+                                              "T2877C",
+                                              "G3582A",
+                                              "C4617T",
+                                              "C4734T",
+                                              "T4956C",
+                                              "G6258A",
+                                              "C6291T"
+                                            ]
+                                          }
+                                        },
+                                        "name": "TOSV/France/AR/2005-07",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Moureau,G., Temmam,S., de Lamballerie,X. and Charrel,R.N.",
+                                            "title": "Complete coding sequence of a French strain of Toscana virus isolated from Phlebotomus perniciosus",
+                                            "value": "Moureau,G., Temmam,S., de Lamballerie,X. and Charrel,R.N."
+                                          },
+                                          "country": {
+                                            "confidence": {
+                                              "France": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13,
+                                            "value": "France"
+                                          },
+                                          "div": 579,
+                                          "host": {
+                                            "value": "Sandfly"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2005.5054794520547,
+                                              2005.5794520547945
+                                            ],
+                                            "value": 2005.5794520547945
+                                          },
+                                          "region": {
+                                            "value": "Europe"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000020",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "France": 0.9998353064356057
+                                        },
+                                        "entropy": 0.0018272109497620582,
+                                        "value": "France"
+                                      },
+                                      "div": 560,
+                                      "num_date": {
+                                        "confidence": [
+                                          1999.040673347511,
+                                          2001.6847813764389
+                                        ],
+                                        "value": 2000.4015596969139
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000019",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "France": 0.9995780497531652
+                                    },
+                                    "entropy": 0.004189633007966346,
+                                    "value": "France"
+                                  },
+                                  "div": 552,
+                                  "num_date": {
+                                    "confidence": [
+                                      1996.6943504134144,
+                                      1999.409831771468
+                                    ],
+                                    "value": 1998.3164249184358
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000018",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "France": 0.9960464394698143,
+                                  "Switzerland": 0.002932652031144753
+                                },
+                                "entropy": 0.02927923751100688,
+                                "value": "France"
+                              },
+                              "div": 551,
+                              "num_date": {
+                                "confidence": [
+                                  1996.1137599697213,
+                                  1998.9183755530137
+                                ],
+                                "value": 1997.6823986579075
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SFNVsLgp1: T301I, G446E, S1146N"
+                              },
+                              "mutations": {
+                                "SFNVsLgp1": [
+                                  "T301I",
+                                  "G446E",
+                                  "S1146N"
+                                ],
+                                "nuc": [
+                                  "A912G",
+                                  "C920T",
+                                  "G1355A",
+                                  "C2247T",
+                                  "A3354G",
+                                  "T3381C",
+                                  "G3455A",
+                                  "G4068A",
+                                  "A5082G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "SFNVsLgp1: H39Y"
+                                  },
+                                  "mutations": {
+                                    "SFNVsLgp1": [
+                                      "H39Y"
+                                    ],
+                                    "nuc": [
+                                      "C133T",
+                                      "C1149T",
+                                      "G2007A",
+                                      "A3066G",
+                                      "T5184C"
+                                    ]
+                                  }
+                                },
+                                "name": "TOSV/France/TOSV/P51/2009",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., Coutard,B., Papageorgiou,N., De Lamballerie,X. and Charrel,R.N",
+                                    "title": "Complete Coding Sequences of Three Toscana Virus Strains Isolated from Sandflies in France",
+                                    "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., Coutard,B., Papageorgiou,N., De Lamballerie,X. and Charrel,R.N"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "France": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "France"
+                                  },
+                                  "div": 564,
+                                  "host": {
+                                    "value": "Sandfly"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.0013698630137,
+                                      2009.84084372175
+                                    ],
+                                    "value": 2009.0013698630137
+                                  },
+                                  "region": {
+                                    "value": "Europe"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C1128A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "SFNVsLgp1: R891K, K1729R"
+                                      },
+                                      "mutations": {
+                                        "SFNVsLgp1": [
+                                          "R891K",
+                                          "K1729R"
+                                        ],
+                                        "nuc": [
+                                          "C1005T",
+                                          "A1008T",
+                                          "G2690A",
+                                          "A2970G",
+                                          "C4992T",
+                                          "A5204G",
+                                          "G6352A"
+                                        ]
+                                      }
+                                    },
+                                    "name": "TOSV/France/9028/2007",
+                                    "node_attrs": {
+                                      "author": {
+                                        "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N",
+                                        "title": "Complete Coding Sequences of Six Toscana Virus Strains Isolated from Human Patients in France",
+                                        "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "France": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "France"
+                                      },
+                                      "div": 567,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2007.1565304676353,
+                                          2007.9986301369863
+                                        ],
+                                        "value": 2007.9986301369863
+                                      },
+                                      "region": {
+                                        "value": "Europe"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A543G",
+                                          "G1251A",
+                                          "C2292T",
+                                          "A3699G",
+                                          "T4198C",
+                                          "A5055G",
+                                          "C5475T",
+                                          "T5796G"
+                                        ]
+                                      }
+                                    },
+                                    "name": "TOSV/France/11368/2009",
+                                    "node_attrs": {
+                                      "author": {
+                                        "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N",
+                                        "title": "Complete Coding Sequences of Six Toscana Virus Strains Isolated from Human Patients in France",
+                                        "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "France": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "France"
+                                      },
+                                      "div": 568,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.0013698630137,
+                                          2009.9986301369863
+                                        ],
+                                        "value": 2009.2571816636796
+                                      },
+                                      "region": {
+                                        "value": "Europe"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A2133G",
+                                          "T4518C"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G8T",
+                                              "C1404T",
+                                              "G2193A",
+                                              "A2553G",
+                                              "A3159G",
+                                              "G3186A",
+                                              "C4143T",
+                                              "A5784G"
+                                            ]
+                                          }
+                                        },
+                                        "name": "TOSV/France/P233/2009",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., Coutard,B., Papageorgiou,N., De Lamballerie,X. and Charrel,R.N",
+                                            "title": "Complete Coding Sequences of Three Toscana Virus Strains Isolated from Sandflies in France",
+                                            "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., Coutard,B., Papageorgiou,N., De Lamballerie,X. and Charrel,R.N"
+                                          },
+                                          "country": {
+                                            "confidence": {
+                                              "France": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "France"
+                                          },
+                                          "div": 570,
+                                          "host": {
+                                            "value": "Sandfly"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2009.1607297344867,
+                                              2009.9986301369863
+                                            ],
+                                            "value": 2009.9986301369863
+                                          },
+                                          "region": {
+                                            "value": "Europe"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "SFNVsLgp1: A54T"
+                                          },
+                                          "mutations": {
+                                            "SFNVsLgp1": [
+                                              "A54T"
+                                            ],
+                                            "nuc": [
+                                              "G178A",
+                                              "G453A",
+                                              "G468A",
+                                              "G1116A",
+                                              "G2091A",
+                                              "T4683C",
+                                              "A5571G"
+                                            ]
+                                          }
+                                        },
+                                        "name": "TOSV/France/TOSV_54441132704/2015",
+                                        "node_attrs": {
+                                          "author": {
+                                            "author": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N",
+                                            "title": "Complete Coding Sequences of Six Toscana Virus Strains Isolated from Human Patients in France",
+                                            "value": "Baklouti,A., Leparc Goffard,I., Piorkowski,G., De Lamballerie,X. and Charrel,R.N"
+                                          },
+                                          "country": {
+                                            "confidence": {
+                                              "France": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "France"
+                                          },
+                                          "div": 569,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2015.0013698630137,
+                                              2015.8438697302295
+                                            ],
+                                            "value": 2015.0013698630137
+                                          },
+                                          "region": {
+                                            "value": "Europe"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000026",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "France": 0.9999343673717184
+                                        },
+                                        "entropy": 0.0007884075434880674,
+                                        "value": "France"
+                                      },
+                                      "div": 562,
+                                      "num_date": {
+                                        "confidence": [
+                                          2005.3636754881231,
+                                          2007.8421882555692
+                                        ],
+                                        "value": 2006.876877571009
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000024",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "France": 0.9999993833754
+                                    },
+                                    "entropy": 1.0209217279314417e-05,
+                                    "value": "France"
+                                  },
+                                  "div": 560,
+                                  "num_date": {
+                                    "confidence": [
+                                      2003.7882114585645,
+                                      2006.0992476299057
+                                    ],
+                                    "value": 2005.4554246529535
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000023",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "France": 0.9999190371008906
+                                },
+                                "entropy": 0.0009545663841286693,
+                                "value": "France"
+                              },
+                              "div": 559,
+                              "num_date": {
+                                "confidence": [
+                                  2002.7383011744428,
+                                  2005.5255524495171
+                                ],
+                                "value": 2004.3738568919944
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000017",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "France": 0.9998066038004317
+                            },
+                            "entropy": 0.001973830890857567,
+                            "value": "France"
+                          },
+                          "div": 550,
+                          "num_date": {
+                            "confidence": [
+                              1995.3787931273062,
+                              1998.3017119065328
+                            ],
+                            "value": 1997.3032711597928
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "France": 0.960338577508637,
+                          "Italy": 0.0013746728848633666,
+                          "Spain": 0.03611918005490242,
+                          "Switzerland": 0.0010448547247736888
+                        },
+                        "entropy": 0.18344456508881274,
+                        "value": "France"
+                      },
+                      "div": 543,
+                      "num_date": {
+                        "confidence": [
+                          1991.7297910806624,
+                          1995.6823386417182
+                        ],
+                        "value": 1994.0276113477712
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000015",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "France": 0.5299542944334432,
+                      "Italy": 0.009462351805849272,
+                      "Spain": 0.44358285486217913,
+                      "Switzerland": 0.006881753427316499
+                    },
+                    "entropy": 0.8289038081463855,
+                    "value": "France"
+                  },
+                  "div": 531,
+                  "num_date": {
+                    "confidence": [
+                      1985.781224115918,
+                      1991.0722220321036
+                    ],
+                    "value": 1988.69467716342
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000009",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "France": 0.15408520017916635,
+                  "Italy": 0.015057780978978383,
+                  "Spain": 0.8012392019699963,
+                  "Switzerland": 0.011104927949612821
+                },
+                "entropy": 0.6655240879569595,
+                "value": "Spain"
+              },
+              "div": 481,
+              "num_date": {
+                "confidence": [
+                  1965.1119646170262,
+                  1972.7711298292397
+                ],
+                "value": 1969.1421431412998
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000007",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "France": 0.12374084353785071,
+              "Italy": 0.02343570485978293,
+              "Spain": 0.8025936223271953,
+              "Switzerland": 0.017889789109385067
+            },
+            "entropy": 0.728336593836337,
+            "value": "Spain"
+          },
+          "div": 461,
+          "num_date": {
+            "confidence": [
+              1953.7715771494684,
+              1962.8897447454617
+            ],
+            "value": 1959.2233907172806
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000021",
+    "node_attrs": {
+      "country": {
+        "confidence": {
+          "France": 0.1670414549252425,
+          "Italy": 0.1669727250730273,
+          "Spain": 0.20537092734441992,
+          "Switzerland": 0.1547192888459819
+        },
+        "entropy": 1.7859724794183116,
+        "value": "Spain"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          1678.9792997229863,
+          1705.4705500596995
+        ],
+        "value": 1688.5034607036523
+      }
+    }
+  },
+  "version": "v2"
+}
