@@ -11,7 +11,9 @@ The phylogeny highlighting the incongruent placement of TOSV/Spain/LCR_515/2017 
 
 https://nextstrain.org/community/Simon-LoriereLab/TOSV@main/M:community/Simon-LoriereLab/TOSV@main/L
 
-This work has been performed in collaboration with [Instituto San Carlos III](https://www.isciii.es/) and [Instituto Maimónides de Investigación Biomédica de Córdoba](https://www.imibic.org) (contact: Maria Dolores Fernandez Garcia mdfernandez@isciii.es)
+This work has been performed in collaboration with [Instituto San Carlos III](https://www.isciii.es/) and [Instituto Maimónides de Investigación Biomédica de Córdoba](https://www.imibic.org) (contact: Maria Dolores Fernandez Garcia mdfernandez@isciii.es). 
+
+We would like to thank all the authors, originating and submitting laboratories of the sequences from GenBank (Acknowledgement_table). We gratefully acknowledge their contributions.
 
 ## Primers scheme
 
