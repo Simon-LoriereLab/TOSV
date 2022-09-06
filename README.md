@@ -1,9 +1,9 @@
 # Insights from the Toscana virus diversity captured in southern Spain 2015 - 2019
 
 This repository analyzes genomes of Toscana virus (TOSV) circulating in southern Spain between 2015 and 2019 using [Nextstrain](https://nextstrain.org/).
-The build was constructed using the genomes generated in this study (n=7) with all available complete TOSV genomes (n=22). Complete taxa names and metadata can be found in Table XX.
+The build was constructed using the genomes generated in this study (n=7) with all available complete TOSV genomes (n=22). Complete taxa names and metadata can be found in Supplementary Table.
 
-The phylogenies placed our TOSV genomes within genotype B and they can be visualized at https://nextstrain.org/community/Simon-LoriereLab/TOSV@main
+The phylogenies placed our TOSV genomes within genotype B and they can be visualized at https://nextstrain.org/community/Simon-LoriereLab/TOSV@main/M
 
 Phylogenetic analysis of the three TOSV genome segments showed branching incongruences for one TOSV sequence suggesting an intra-genotype reassortment event for TOSV and the first evidence of reassortment in TOSV.
  
